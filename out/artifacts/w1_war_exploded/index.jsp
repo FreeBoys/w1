@@ -14,7 +14,7 @@
   <%@ page import="com.hello" %>
   <%
     String str = new hello().getHello();
-    System.out.println(str);
+    out.println(str);
 
   %>
   </body>
